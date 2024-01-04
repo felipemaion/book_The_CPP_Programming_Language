@@ -32,6 +32,7 @@ int main()
     f('a'); // Call f(char)
     // g('a'); // Illegal: Cannot bind non-const reference to a temporary
     //  error: cannot bind non-const lvalue reference of type 'char&' to an rvalue of type 'char'
+
     g(c);   // Call g(char&)
     h('a'); // Legal: Calls h(const char&)
     h(c);   // Call h(const char&)

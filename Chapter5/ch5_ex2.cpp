@@ -31,6 +31,7 @@ The alignment requirements may vary across different systems and architectures, 
 
 int main()
 {
+    // Declarations not alligned
     char *charPtr = reinterpret_cast<char *>(0x11); // Misaligned address for char*
     int *intPtr = reinterpret_cast<int *>(0x11);    // Misaligned address for int*
     void *voidPtr = reinterpret_cast<void *>(0x11); // Misaligned address for void*

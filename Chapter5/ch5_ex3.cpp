@@ -37,7 +37,7 @@ int main()
     IntPtrArray7 myIntPtrArray7;
     IntPtrArray8 myIntPtrArray8;
 
-    // Just to prevent unused variable warnings
+    // Just to prevent unused variable warnings, no actual operation.
     (void)myUnsignedChar;
     (void)myConstUnsignedChar;
     (void)myIntPtr;

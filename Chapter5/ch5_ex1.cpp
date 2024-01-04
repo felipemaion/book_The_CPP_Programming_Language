@@ -17,7 +17,7 @@ int main()
 {
     // a pointer to a character
     char *charPtr;
-    char myChar = 'A';
+    char myChar = 'A'; // char: 'A', string: "A"
     charPtr = &myChar;
 
     // an array of 10 integers

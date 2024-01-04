@@ -13,6 +13,7 @@ void swapIntPtr(int *a, int *b)
     *b = temp;
 }
 
+// Function to swap integers using int* as the argument type WITHOUT temp var.
 void swapIntPtrWOTemp(int *a, int *b)
 {
     *a = *a + *b;
@@ -27,6 +28,7 @@ void swapIntRef(int &a, int &b)
     a = b;
     b = temp;
 }
+// Function to swap integers using int& as the argument type WITHOUT temp var.
 void swapIntRefWOTemp(int &a, int &b)
 {
     a = a + b;
@@ -66,7 +68,7 @@ int main()
     x = 5;
     y = 10;
 
-    // Using swapIntRef with int& arguments
+    // Using swapIntRefWOTemp with int& arguments
     std::cout << "Before swap: x = " << x << ", y = " << y << std::endl;
     swapIntRefWOTemp(x, y);
     std::cout << "After swapIntRefWOTemp: x = " << x << ", y = " << y << std::endl;

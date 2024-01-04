@@ -18,6 +18,7 @@ int main()
 
     // Calculate length of the string
     size_t lengthOfString = std::strlen(str);
+
     std::cout << "Length of the string 'a short string': " << lengthOfString << std::endl;
 
     return 0;
